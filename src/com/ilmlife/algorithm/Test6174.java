@@ -2,6 +2,13 @@ package com.ilmlife.algorithm;
 
 import java.util.Scanner;
 
+/**
+ * http://acm.nyist.net/JudgeOnline/problemset.php
+ * 57 6174问题
+ * 
+ * @author ilmlife E-Mail：ilmlife@126.com
+ * @version 创建时间：2015年8月30日 下午1:57:04
+ */
 public class Test6174 {
 	public static void main(String[] args) {
 		Scanner cin = new Scanner(System.in);
