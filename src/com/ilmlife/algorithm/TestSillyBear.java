@@ -2,7 +2,13 @@ package com.ilmlife.algorithm;
 
 import java.util.Scanner;
 
-// 还没改好
+/**
+ * http://acm.nyist.net/JudgeOnline/problemset.php
+ * 62 笨小熊
+ * 
+ * @author ilmlife E-Mail：ilmlife@126.com
+ * @version 1.0 创建时间：2015年9月11日 下午7:03:52
+ */
 public class TestSillyBear {
 	public static void main(String[] args) {
 		Scanner cin = new Scanner(System.in);
@@ -13,8 +19,8 @@ public class TestSillyBear {
 			int min = 100, max = 0;
 			for (int m = 0; m < word.length(); m++) {
 				int perNum = 1;
-				for (int n = m + 1; n < word.length(); n++) {
-					if (word.charAt(m) == word.charAt(n)) {
+				for (int n = 0; n < word.length(); n++) {
+					if (m != n && word.charAt(m) == word.charAt(n)) {
 						perNum = perNum + 1;
 					}
 				}
